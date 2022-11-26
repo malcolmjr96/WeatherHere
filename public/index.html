@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Data Selfie App</title>
+</head>
+<body>
+    <h1>WeatherHere</h1>
+    <a href="/index.html">Home</a>
+    <a href="/logs/all.html">List</a>
+
+    <p>Longitude:<span id="lon"></span>&deg;</br></p>
+    <p>Latitude:<span id="lat"></span>&deg;</br></p>
+
+    <p>
+        The weather here in <span id="location"></span> <span id="location-country"></span> is currently <span id="summary"></span>. And the temperature is <span id="weatherTemp"></span>&deg;C based on your coordinates: <span id="spanlon"></span> <span id="spanlat"></span> The concentration of particulate matter (<span id="aq_parameter"></span>) is <span id="aq_value"></span><span id="aq_units"></span> last read on <span id="aq_date"></span>.
+    </p>
+
+    <button id="checkin">Submit</button></br>
+    <script src="script.js"></script>
+</body>
+</html>

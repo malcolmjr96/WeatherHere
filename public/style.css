@@ -1,0 +1,11 @@
+div {
+
+}
+span {
+    font-weight: bold;
+}
+
+#checkinmap {
+    width: 450px;
+    height: 450px;
+}
